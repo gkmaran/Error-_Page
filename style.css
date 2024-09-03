@@ -59,34 +59,47 @@ footer{
     color: rgb(109, 108, 108);
 }
 @media (min-width: 375px) and (max-width: 768px) {
+ header{
+    height: 15vh;
+ }
+ .img-wrapper{
+    display: block;
+    width: 100%;
+ }
+ .img-wrapper img{
+    width: 100%;
+ }
+ body{
+    text-align: center;
+ }
+ .item-wrapper{
+    display: block;
+    width: 100%;
+ }
+ .item-wrapper h1{
+    margin-right: 90px;
+    font-size: 2.5rem;
+ }
+ .item-wrapper p{
+    margin-right: 90px;
+ }
+ .item-wrapper a{
+    margin-right: 90px;
+ }
+ footer p{
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+ }
+    }   
+@media (min-width : 375px){
     header{
-        width: 100%;
-        margin-left: 110px;
+        height: 15vh;
     }
-    .img-wrapper{
-        width: 100%;
-        display: block;
+    main{
+        height: 80vh;
     }
-    .img-wrapper img{
-        margin-left: 100px;
-        width: 60%;
+    footer{
+        height: 5vh;
     }
-    .item-wrapper{
-        display: block;
-        width: 100%;
-    }
-    .item-wrapper h1{
-       margin-left: 35px;
-    }
-    .item-wrapper a{
-        margin-left: 60px;
-    }
-    .item-wrapper p{
-       
-    }
-    footer p{
-        position: absolute;
-        bottom: 0;
-        margin-left: 170px;
-    }
-    }    
+} 
