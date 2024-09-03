@@ -58,3 +58,35 @@ footer{
     margin-right: 120px;
     color: rgb(109, 108, 108);
 }
+@media (min-width: 375px) and (max-width: 768px) {
+    header{
+        width: 100%;
+        margin-left: 110px;
+    }
+    .img-wrapper{
+        width: 100%;
+        display: block;
+    }
+    .img-wrapper img{
+        margin-left: 100px;
+        width: 60%;
+    }
+    .item-wrapper{
+        display: block;
+        width: 100%;
+    }
+    .item-wrapper h1{
+       margin-left: 35px;
+    }
+    .item-wrapper a{
+        margin-left: 60px;
+    }
+    .item-wrapper p{
+       
+    }
+    footer p{
+        position: absolute;
+        bottom: 0;
+        margin-left: 170px;
+    }
+    }    
