@@ -59,47 +59,32 @@ footer{
     color: rgb(109, 108, 108);
 }
 @media (min-width: 375px) and (max-width: 768px) {
- header{
-    height: 15vh;
- }
- .img-wrapper{
-    display: block;
-    width: 100%;
- }
- .img-wrapper img{
-    width: 100%;
- }
- body{
-    text-align: center;
- }
- .item-wrapper{
-    display: block;
-    width: 100%;
- }
- .item-wrapper h1{
-    margin-right: 90px;
-    font-size: 2.5rem;
- }
- .item-wrapper p{
-    margin-right: 90px;
- }
- .item-wrapper a{
-    margin-right: 90px;
- }
- footer p{
-    position: absolute;
-    bottom: 0;
-    height: 5vh;
- }
-    }   
-@media (min-width : 375px){
-    header{
-        height: 15vh;
+    body{
+        text-align: center;
     }
-    main{
-        height: 80vh;
+    header{
+        margin-right: 2rem;
+    }
+    .img-wrapper img{
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .item-wrapper{
+        width: 100%;
+        display: block;
+    }
+    .item-wrapper h1{
+        font-size: 30px;
+        margin-right: 60px;
+    }
+    .item-wrapper p{
+        margin-right: 60px;
+    }
+    .item-wrapper a{
+        margin-right: 60px;
     }
     footer{
-        height: 5vh;
+        bottom: 0;
+        margin-left: 180px;
     }
-} 
+}
